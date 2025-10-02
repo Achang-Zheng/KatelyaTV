@@ -7,7 +7,7 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "6d580637-1f87-4ddf-8b4d-3d97254b4c33"
+database_id = "d809361d-8086-47d1-a35e-07eeb591e06f"
 
 # 生产环境配置
 [env.production]
@@ -17,7 +17,7 @@ name = "katelyatv"
 [[env.production.d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "6d580637-1f87-4ddf-8b4d-3d97254b4c33"
+database_id = "d809361d-8086-47d1-a35e-07eeb591e06f"
 
 # 生产环境变量
 [env.production.vars]
@@ -55,7 +55,6 @@ NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
 NEXTAUTH_URL = "https://katelyatv.home-smart.fun"
 USERNAME = "admin"
-PASSWORD = "123456"
 AUTH_PASSWORD = "ab1433223cd@"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
